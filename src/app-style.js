@@ -9,24 +9,24 @@ export const Container = styled.div`
     background: #F9FBFC;
     color: #001833;
     position: relative;
-     @media (max-width: 1024px) {
-       font-size: 1rem;
+    @media (max-width: 1024px) {
+        font-size: 1rem;
     }
     @media (max-width: 1400px) {
-       font-size: 0.7rem;
+        font-size: 0.7rem;
     }
     @media (min-width: 1800px) {
-       font-size: 0.9rem;
+        font-size: 0.9rem;
     }
     @media (min-width: 1900px) {
-       font-size: 1rem;
+        font-size: 1rem;
     }
     a {
         text-decoration: none;
         color: #001833;
     }
     ul{
-       list-style-type: none; 
+        list-style-type: none; 
     }
     
     

@@ -10,5 +10,18 @@ body {
   background: #F9FBFC;
 }
 
+.demo{
+  color: rgb(233, 0, 0);
+  font-size: 14px;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.blue:hover {
+  color: #001833;
+}
+
 
 

@@ -1,8 +1,7 @@
 # Safe Mothers Safe Babies
 
 You can find the deployed project at:
-
-Staging: [staging-fe-labs17-safe](https://staging-fe-labs17-safe.herokuapp.com/)  
+ 
 Production: [production-fe-labs17-safe](https://production-fe-labs17-safe.herokuapp.com/)
 
 [View the project demo](https://www.youtube.com/watch?v=KM4jNYUOg7Y&t=8s)

@@ -28,3 +28,5 @@ yarn-error.log*
 
 # secret environment variable
 .env
+
+notes.md

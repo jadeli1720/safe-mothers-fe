@@ -48,10 +48,10 @@ const LoginForm = (props) => {
                         </div>
                     </Form>
                     <div style={{textAlign:"center"}}>
-                        <h3 className="demo" style={{margin:"10px 0px 12px"}} >This is just a Demo:</h3>
+                        <h3 className="demo" style={{margin:"10px 0px 12px"}} >Demo purposes only:</h3>
                         <p style={{fontSize:'12px', margin:"4px 0px"}}><span className="bold">Username:</span> admin</p>
                         <p style={{fontSize:'12px', margin:"4px 0px 12px"}}><span className="bold">Password:</span> password</p>
-                        <a href="https://github.com/jadeli1720/safe-mothers-fe" className="bold" style={{color:"#3D689E", fontSize:'14px',margin: "10px"}} >GitHub Codebase</a>
+                        <a href="https://github.com/jadeli1720/safe-mothers-fe" className="bold" style={{color:"#3D689E", fontSize:'14px',margin: "10px"}} >GitHub Repo</a>
                     </div>
                 </div>
             </Container>

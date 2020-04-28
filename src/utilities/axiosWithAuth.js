@@ -5,7 +5,7 @@ const axiosWithAuth = () => {
   const token = localStorage.getItem("token");
   // retrieve API base url from .env
   const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:5000";
-  console.log(apiUrl);
+  console.log("URL",apiUrl);
   return axios.create({
     // sets base url, and authorization headers with each axios request
     baseURL: apiUrl,

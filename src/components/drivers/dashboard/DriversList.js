@@ -20,10 +20,10 @@ const DriversList = (props) => {
             <SearchBanner  searchPath={"/drivers/"} items={drivers} btn_name={"Add driver"} title={"Drivers"} path={"/driver-form"} name={"driver_name"}/>
             <Header info={""}  label={"Status"} label2={"Rating"}/>
             <Accordion className="accordion"
-                       animate={true}
-                       multiple={false}
-                       margin='small'
-                       background='white'
+                        animate={true}
+                        multiple={false}
+                        margin='small'
+                        background='white'
             >
                 {
                     drivers &&

@@ -24,7 +24,7 @@ export const StyledLabel = styled.div`
     };
     
     .hide{
-         @media (max-width: 600px) {
+        @media (max-width: 600px) {
             display: none;
         }
     }
@@ -71,18 +71,18 @@ export const StyledLabel = styled.div`
         width: 7%;
         white-space: nowrap;
         @media (max-width: 700px) {
-          justify-content: flex-end;
+            justify-content: flex-end;
         }
     }
-             
+
     .icon-container{
         width: 8%;
         height: 8%;
         @media (max-width: 600px) {
-          margin-right: 13%;
+            margin-right: 13%;
         }
-         @media (min-width: 600px ) and (max-width: 900px) {
-          margin-right: 10%;
+        @media (min-width: 600px ) and (max-width: 900px) {
+            margin-right: 10%;
         }
     }
     
@@ -122,9 +122,9 @@ export const StyledLabel = styled.div`
     
     .modal{
         background: red;
-        border-radius: 5px; !important
+        border-radius: 5px !important;
     }
-     
+    
     p{
         justify-content: space-between;
         width: 33%;
@@ -141,47 +141,46 @@ export const StyledLabel = styled.div`
         text-align: left;
         padding-left: 3%;
     }
-     .modal-title{
+    .modal-title{
         font-family: 'Asap', sans-serif;
-   }    
+    }    
 `;
 
 export const CustomBadge = styled.div`
-    font-family: 'Asap', sans-serif;
+    font-family: "Asap", sans-serif;
     white-space: nowrap;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: ${props => props.width};
-    min-width: ${props => props.min_width};
+    width: ${(props) => props.width};
+    min-width: ${(props) => props.min_width};
     margin: 1% 1%;
     padding: 0.5% 0.1% 0.5% 0.5%;
     max-height: 25px;
-    background:  ${props => props.badgeColor};
+    background: ${(props) => props.badgeColor};
     border-radius: 20px;
-    color:  ${props => props.badgeText};
+    color: ${(props) => props.badgeText};
     font-size: 0.5rem;
-    
-    @media (min-width: 1000px) and(max-width: 1250px) { 
+
+    @media (min-width: 1000px) and(max-width: 1250px) {
         font-size: 0.6rem;
     }
-    @media (min-width: 1250px) { 
-        font-size: 0.7rem;
+    @media (min-width: 1250px) {
+    font-size: 0.7rem;
     }
-    .label-icon{
-        height: 20px;
-        width: 28px;
+    .label-icon {
+    height: 20px;
+    width: 28px;
         @media (max-width: 1300px) {
-            height: 12px;
-            width: 15px;
+        height: 12px;
+        width: 15px;
         }
-   }
-   
-   .badge-content{
+    }
+
+    .badge-content {
         display: flex;
         justify-content: center;
         align-items: center;
-   }
+    }
 `;
-

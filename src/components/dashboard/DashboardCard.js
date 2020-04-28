@@ -60,7 +60,7 @@ const DashboardCard = props => {
                     <h1>{val2}</h1>
                     <p>{cardState === MOTHER ? "Late Due Day" : "Active Drivers"}</p>
                 </div>
-                 <div className="grid-item">
+                <div className="grid-item">
                     <h1>{val3}</h1>
                     <p>{cardState === MOTHER ? "High Risk" : "Active 5 Stars"}</p>
                 </div>

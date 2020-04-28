@@ -2,7 +2,7 @@
 
 You can find the deployed project at:
  
-Production: [production-fe-labs17-safe](https://production-fe-labs17-safe.herokuapp.com/)
+[Here](https://riders4life.now.sh/login)
 
 [View the project demo](https://www.youtube.com/watch?v=KM4jNYUOg7Y&t=8s)
 
@@ -89,7 +89,7 @@ We chose these frameworks because:
 
 #### Front end deployed to Heroku
 
-#### [Back end](https://github.com/Lambda-School-Labs/safe-mothers-be) built using:
+#### [Backend](https://github.com/jadeli1720/safe-mothers-be) was built using:
 
 # NodeJS + ExpressJS
 
@@ -156,9 +156,9 @@ Open http://localhost:3000 to view it in the browser.
 \_The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-**Step 4:** configure for backend
+**Step 4:** configuration for the backend
 
-- https://github.com/Lambda-School-Labs/safe-mothers-be
+- https://github.com/jadeli1720/safe-mothers-be
 
 will be the base URL for the specific back-end server that the client will be using.
 
@@ -203,4 +203,4 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Backend Documentation](https://github.com/Lambda-School-Labs/safe-mothers-be) for details on the backend of our project.
+See [Backend Documentation](https://github.com/jadeli1720/safe-mothers-be) for details on the backend of our project.
